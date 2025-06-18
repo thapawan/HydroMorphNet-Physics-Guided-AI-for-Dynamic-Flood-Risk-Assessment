@@ -1,7 +1,9 @@
 🌟 Overview
+
 HydroMorphNet is a groundbreaking framework that revolutionizes flood risk assessment in complex fluvial environments. By merging advanced deep learning techniques with physically-based hydraulic modeling, it offers unparalleled accuracy and dynamic insights into flood propagation and localized risk. This project aims to provide a robust, scalable, and operationally viable tool for hydrologists, urban planners, and disaster management agencies.
 
 ✨ Key Features & Innovations
+
 Superior Meander Classification: Achieves a remarkable 86.7% classification accuracy for meander segments, significantly outperforming conventional deep learning approaches. This precision is driven by a novel hybrid architecture combining a Geometric Attention Transformer with 3D Convolutional Blocks.
 
 Physics-Informed Hydraulic Modeling: Integrates a differentiable hydraulic model capable of dynamically predicting Manning's roughness coefficients based on deep learning-derived meander classifications.
@@ -23,6 +25,7 @@ Uncertainty Quantification: Incorporates Monte Carlo dropout layers to provide r
 Open-Source & Accessible: Available as an open-source QGIS plugin for practical implementation by agencies like FEMA for levee certification and adaptive floodplain management.
 
 ⚙️ How it Works (High-Level)
+
 HydroMorphNet operates by:
 
 Processing multi-temporal Sentinel-1 SAR imagery and derived geometric parameters (e.g., sinuosity, NCMI) through its hybrid deep learning architecture.
@@ -34,23 +37,18 @@ Simulating flood propagation using the physics-constrained hydraulic model.
 Integrating hydraulic outputs with various geospatial factors (e.g., land cover, soil permeability, historical flood frequency) and climate projections for comprehensive flood risk mapping.
 
 🚀 Installation & Usage
+
 Detailed installation instructions and usage examples will be provided soon. As an open-source QGIS plugin, it will offer straightforward integration into existing geospatial workflows.
 
 🤝 Contributing
+
 We welcome contributions from the community! Please refer to our CONTRIBUTING.md for guidelines on how to get involved.
 
 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 📧 Contact
-For any inquiries or collaborations, please contact the lead authors:
 
+For any inquiries or collaborations, please contact the lead authors at the Department of Geography & the Environment, University of Alabama:
 Pawan Thapa
-
-Lisa Davis
-
-Amobichukwu Amanambu
-
-Leah Mungai
-
-Department of Geography & the Environment, University of Alabama
